@@ -89,7 +89,7 @@ public class BottomSheetComentar extends BottomSheetDialogFragment {
 }
 
 
-*************************************************
+************************************************* **************************************************************************************************
 
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout
