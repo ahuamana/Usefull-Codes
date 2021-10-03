@@ -1,0 +1,7 @@
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    app:fabCustomSize="40dp"
+                    android:src="@drawable/ic_send_white"
+                    app:backgroundTint="@color/greenPrimary"
+                    android:layout_height="wrap_content"/>
