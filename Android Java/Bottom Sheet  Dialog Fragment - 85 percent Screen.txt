@@ -1,3 +1,6 @@
+////////////////////////////
+https://stackoverflow.com/questions/58651661/how-to-set-max-height-in-bottomsheetdialogfragment
+////////////////////////////
 
 public class BottomSheetComentar extends BottomSheetDialogFragment {
 
