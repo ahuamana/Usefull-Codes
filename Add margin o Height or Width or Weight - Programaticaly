@@ -1,0 +1,11 @@
+*************************************************************************
+Add margin o Height or Width or Weight - Programaticaly
+*************************************************************************
+
+CardView.LayoutParams params = new CardView.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+        );
+
+        params.setMargins(30,0,30,0);
+        customBinding.cardParent.setLayoutParams(params);
