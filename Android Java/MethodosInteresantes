@@ -1,0 +1,7 @@
+
+private void goToWhatsapp() {
+        String phoneNumberWithCountryCode = "+51930292619";
+        String message = "Hola, te contactaste con Agua Limpia en una APP, \n¿En que te podemos ayudar?";
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(String.format("https://api.whatsapp.com/send?phone=%s&text=%s", phoneNumberWithCountryCode, message)));
+        startActivity(i);
+    }
