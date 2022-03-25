@@ -1,0 +1,12 @@
+Referencias:
+https://es.stackoverflow.com/questions/457058/dejar-un-espacio-abajo-del-ultimo-elemento-de-un-recycler-view-android-studio/457061#457061
+
+<androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_prestamos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:paddingBottom="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
