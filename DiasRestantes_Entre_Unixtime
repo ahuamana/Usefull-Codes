@@ -1,0 +1,6 @@
+//Restar unixtime y obtener los dias restantes
+
+                var fechaActualUnixtime  = SimpleDateFormat("dd/MM/yyyy").parse(fechaActual).time
+                var dias = (fechaActualUnixtime).minus(item.unixtime?:0)?.div(milisecondsByDay)
+                
+                println("dias restante $dias")
