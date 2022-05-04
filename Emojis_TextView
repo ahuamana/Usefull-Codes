@@ -1,0 +1,19 @@
+Referencias
+https://stackoverflow.com/questions/26893796/how-to-set-emoji-by-unicode-in-a-textview
+
+
+Emojis --> https://unicode.org/emoji/charts/full-emoji-list.html
+
+Code ->
+
+In my unicode I replaced 'U+' by '0x'
+
+Example: replace 'U+1F60A' by '0x1F60A'
+
+///////////////////////////////////////////////////////
+
+int unicode = 0x1F60A;
+
+public String getEmojiByUnicode(int unicode){
+    return new String(Character.toChars(unicode));
+}
