@@ -1,0 +1,11 @@
+1. Create Alias GIT
+
+git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+
+1.1 Use Alias
+
+git config
+
+Result:
+
+![image](https://user-images.githubusercontent.com/60039961/205491076-90365d08-2626-46af-a103-ef8d7edca7f8.png)
